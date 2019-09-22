@@ -8,8 +8,13 @@ stdin.addListener("data", function(d) {
     console.log("bienvenue monsieur: " + 
         d.toString().trim());
 
-    console.log("bienvenido señor: " + 
-        d.toString().trim());
+
     console.log("bem vindo senhor: " + 
+        d.toString().trim());
+
+    console.log("Willkommen, Sir: " + 
+        d.toString().trim());
+
+    console.log("先生，欢迎您: " + 
         d.toString().trim());
   });
