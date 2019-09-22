@@ -10,4 +10,6 @@ stdin.addListener("data", function(d) {
 
     console.log("bienvenido señor: " + 
         d.toString().trim());
+    console.log("bem vindo senhor: " + 
+        d.toString().trim());
   });
